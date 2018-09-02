@@ -151,9 +151,11 @@
         };
         ScrollHandlerCore.prototype.checkRange = function (range, index, scrollTop, forceCallback) {
             if (forceCallback === void 0) { forceCallback = false; }
-            if ((scrollTop >= range.startPosition && scrollTop <= range.endPosition) ||
+            if ((scrollTop >= range.startPosition &&
+                scrollTop <= range.endPosition) ||
                 forceCallback === true) {
-                var progress = (scrollTop - range.startPosition) / (range.endPosition - range.startPosition);
+                var progress = (scrollTop - range.startPosition) /
+                    (range.endPosition - range.startPosition);
                 if (progress > 1) {
                     progress = 1;
                 }
