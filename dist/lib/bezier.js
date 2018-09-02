@@ -21,8 +21,18 @@ exports.BEZIER_EASE_OUT_SINE = [0.39, 0.575, 0.565, 1.0];
 exports.BEZIER_EASE_OUT_EXPO = [0.19, 1.0, 0.22, 1.0];
 exports.BEZIER_EASE_OUT_CIRC = [0.075, 0.82, 0.165, 1.0];
 exports.BEZIER_EASE_OUT_BACK = [0.175, 0.885, 0.32, 1.275];
-exports.BEZIER_EASE_IN_OUT_QUAD = [0.455, 0.03, 0.515, 0.955];
-exports.BEZIER_EASE_IN_OUT_CUBIC = [0.645, 0.045, 0.355, 1.0];
+exports.BEZIER_EASE_IN_OUT_QUAD = [
+    0.455,
+    0.03,
+    0.515,
+    0.955,
+];
+exports.BEZIER_EASE_IN_OUT_CUBIC = [
+    0.645,
+    0.045,
+    0.355,
+    1.0,
+];
 exports.BEZIER_EASE_IN_OUT_QUART = [0.77, 0.0, 0.175, 1.0];
 exports.BEZIER_EASE_IN_OUT_QUINT = [0.86, 0.0, 0.07, 1.0];
 exports.BEZIER_EASE_IN_OUT_SINE = [0.445, 0.05, 0.55, 0.95];
