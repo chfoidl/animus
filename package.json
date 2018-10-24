@@ -105,7 +105,7 @@
     ]
   },
   "dependencies": {
-    "@sethorax/browser-utils": "^1.1.0",
+    "@sethorax/browser-utils": "^1.1.1",
     "@types/bezier-easing": "^2.0.0",
     "bezier-easing": "^2.1.0"
   }

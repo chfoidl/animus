@@ -146,7 +146,7 @@
                 breakpoint.callback(true, scrollTop);
             }
             else if (forceCallback) {
-                breakpoint.callback(false, scrollTop);
+                breakpoint.callback(breakpoint.matches, scrollTop);
             }
         };
         ScrollHandlerCore.prototype.checkRange = function (range, index, scrollTop, forceCallback) {

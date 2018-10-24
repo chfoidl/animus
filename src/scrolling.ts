@@ -96,7 +96,7 @@ class ScrollHandlerCore {
             this.breakpoints[index].matches = true;
             breakpoint.callback(true, scrollTop);
         } else if (forceCallback) {
-            breakpoint.callback(false, scrollTop);
+            breakpoint.callback(breakpoint.matches, scrollTop);
         }
     }
 
