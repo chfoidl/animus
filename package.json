@@ -1,6 +1,6 @@
 {
   "name": "@sethorax/animus",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Parallax and animation library written in TypeScript.",
   "main": "dist/animus.umd.js",
   "module": "dist/animus.es5.js",
